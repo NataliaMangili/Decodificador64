@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home - Decod</title>
+    <meta name="description" content="!">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <script src="vogalcons.js"></script>
+</head>
+
+<!--NavBar-->
+
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="72"
+    style="background: var(--bs-body-bg);">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav"
+        style="background: var(--bs-body-color);padding: 16px 0px;">
+        <div class="container"><a class="navbar-brand" href="#page-top">Decode</a><button data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive"
+                class="navbar-toggler text-white bg-primary navbar-toggler-right text-uppercase rounded"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i
+                    class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive" style="color: rgb(33, 37, 41);">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#portfolio">Conversores</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#about">Sobre</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#contact">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Form 1-->
+    <section class="text-center border rounded contact-clean"
+        style="padding-bottom: 0px;height: 1010px;background: url(&quot;assets/img/image-from-rawpixel-id-6104683-original.jpg&quot;) center / cover, var(--bs-purple);">
+        <h1
+            style="padding: 48px;padding-top: 49px;padding-left: 316px;font-size: 28px;color: #212529;margin-bottom: 15px;margin-left: -345px;font-family: Montserrat, sans-serif;">
+            Decodificação 64</h1>
+        <textarea placeholder="Insira seu código base 64" style="width: 400px;height: 180px;"></textarea>
+        <button id="decodifica" class="btn btn-primary border rounded" type="button"
+            style="margin-left: 39px;margin-bottom: 119px;margin-right: -64px;background: var(--bs-secondary);--bs-primary: #505e6c;--bs-primary-rgb: 80,94,108;--bs-success: #212529;--bs-success-rgb: 33,37,41;">Decodificar</button>
+
+        <!--Form 2-->
+        <h1
+            style="padding: 48px;padding-top: 49px;padding-left: 316px;font-size: 28px;color: #212529;margin-bottom: 15px;margin-left: -345px;">
+            Contador de Consoantes e Vogais</h1>
+        <textarea placeholder="Digite uma palavra ou texto" type="text" id="element"
+            style="width: 400px;height: 180px;"></textarea>
+        <button class="btn btn-primary border rounded" type="button"
+            style="margin-left: 68px;margin-bottom: 119px;margin-right: -64px;background: var(--bs-secondary)" ;
+            value="Click" onclick="go();">Enviar</button>
+        <header></header>
+        <textarea id="e1" class="border rounded-pill border-secondary shadow"
+            style="height: 32px;padding-right: 20px;margin-right: 19px;margin-left: -65px;font-family: Montserrat, sans-serif; text-align: center; font-weight: bold;"
+            disabled=""></textarea>
+        <textarea id="e2" class="border rounded-pill border-secondary shadow"
+            style="height: 32px;padding-right: 20px;margin-right: 60px;margin-top: -20px;font-family: Montserrat, sans-serif; text-align: center; font-weight: bold; margin-right: -30px;"
+            disabled=""></textarea>
+        <footer class="footer-dark"
+            style="margin-top: 65px;padding-bottom: 25px;padding-top: 40px;background: #232c36;">
+
+            <!--Footer-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Serviços</h3>
+                        <ul>
+                            <li><a href="#">Codificar</a></li>
+                            <li><a href="#">Decodificar</a></li>
+                            <li><a href="#">Converter</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Sobre</h3>
+                        <ul>
+                            <li><a href="#">Companhia</a></li>
+                            <li><a href="#">Equipe</a></li>
+                            <li><a href="#">Trabalhos</a></li>
+                        </ul>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
+                                class="icon ion-social-twitter"></i></a><a href="#"><i
+                                class="icon ion-social-snapchat"></i></a><a href="#"><i
+                                class="icon ion-social-instagram"></i></a></div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <script src="decodificar.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/freelancer.js"></script>
+</body>
+
+</html>
